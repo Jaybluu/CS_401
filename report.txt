@@ -1,0 +1,8 @@
+1.
+The main difference between myFoldl and myFold right is the order in which the operands are used.
+In my myFoldl, myFoldl is called first with op, so that the acc can go throught the list from left to right.
+In myFoldr, myFoldr is called after, so that the acc can go throught the list from right to left.
+
+2.Which function you use depends upon the the problem. In myReverse, I used myFoldlr because it made more 
+sense to iterate through the list backwards and return it rather than go through the extra hoops with myFoldr.
+With map it doesn't matter as whichever way the list is mapped it will still take one iteration.
