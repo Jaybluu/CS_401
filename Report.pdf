@@ -1,0 +1,7 @@
+1. The way I implemented fib and fibTail was very similar with the last line in match being the difference.
+In Fib, the code takes the sum of the previous two numbers in the sequence (excluding 0 and 1) and iterates 
+based on n. In fibTail,the last call is stored in a variable and used for the next call. This makes the 
+process of the fibonacci sequence far less demanding on the system.
+
+2. Tail is far better for the fibonnacci sequence as instead of calculating every iteration of the sequence,
+it stores each previous iteration and add the new one. Short answer: it's far more efficient and faster.
